@@ -1,17 +1,17 @@
 return {
   {
-    "craftzdog/solarized-osaka.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require("solarized-osaka").setup({
-        transparent = true,
-        styles = {
-          floats = "transparent",
-          sidebars = "transparent",
-        },
-      })
-    end,
+    -- "craftzdog/solarized-osaka.nvim",
+    -- lazy = false,
+    -- priority = 1000,
+    -- config = function()
+    --   require("solarized-osaka").setup({
+    --     transparent = true,
+    --     styles = {
+    --       floats = "transparent",
+    --       sidebars = "transparent",
+    --     },
+    --   })
+    -- end,
 
     -- "folke/tokyonight.nvim",
     -- lazy = false,
@@ -38,14 +38,14 @@ return {
     -- end,
     --
     -- catppuccin original
-    -- "catppuccin/nvim",
-    -- lazy = false,
-    -- priority = 1000,
-    -- config = function()
-    --   require("catppuccin").setup({
-    --     transparent_background = true,
-    --   })
-    -- end,
+    "catppuccin/nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("catppuccin").setup({
+        transparent_background = true,
+      })
+    end,
     --
     -- "catppuccin/nvim",
     -- lazy = false,

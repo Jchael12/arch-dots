@@ -17,6 +17,7 @@ opt.laststatus = 3
 opt.shell = "pwsh"
 opt.splitkeep = "cursor"
 opt.conceallevel = 1
+opt.cmdheight = 1
 
 -- add asterisk in comments
 opt.formatoptions:append({ "r" })
