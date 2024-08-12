@@ -1,10 +1,6 @@
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
--- local size = function()
---   return vim.o.columns * 0.5
--- end
-
 vim.g.mapleader = " "
 
 -- local discipline = require("jchael.core.discipline")
@@ -59,13 +55,10 @@ key("n", "te", ":tabedit", { desc = "new tab" })
 key("n", "<tab>", ":tabnext<Return>", { desc = "next tab" })
 key("n", "<S-tab>", ":tabprev<Return>", { desc = "prev tab" })
 
--- key("n", "<C-\\>", "<cmd>ToggleTerm<cr>")
--- key("t", "<C-\\>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Term" })
-
--- -- -- terminal
--- key("n", "<C-_>", function()
---   util.terminal(nil, { border = "rounded" })
--- end, { desc = "toggle terminal with border" })
+-- -- terminal
+key("n", "<C-_>", function()
+  util.terminal(nil, { border = "rounded" })
+end, { desc = "toggle terminal with border" })
 
 -- floating terminal
 -- local lazyterm = function()

@@ -86,7 +86,8 @@ return {
             additional_args = { "--hidden" },
           })
         end,
-        desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
+        desc =
+        "Search for a string in your current working directory and get results live as you type, respects .gitignore",
       },
       {
         "\\\\",

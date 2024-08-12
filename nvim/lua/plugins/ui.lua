@@ -1,14 +1,5 @@
 return {
   -- messages, cmdline and the popupmenu
-  -- "akinsho/toggleterm.nvim",
-  -- opts = {
-  --   shade_terminals = true,
-  --   direction = "float",
-  --   float_opts = {
-  --     -- Hide border
-  --     border = "thin",
-  --   },
-  -- },
   {
     "folke/noice.nvim",
     opts = function(_, opts)
@@ -74,7 +65,7 @@ return {
     "akinsho/bufferline.nvim",
     event = "VeryLazy",
     keys = {
-      { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
+      { "<Tab>",   "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
       { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
     },
     opts = {
